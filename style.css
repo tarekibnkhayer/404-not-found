@@ -1,0 +1,32 @@
+main{
+    display: flex;
+    margin: 100px;
+}
+img {
+    margin-right: 100px;
+    width: 50%;
+}
+
+p {
+    font-size: 150%;
+}
+button{
+    width: 65%;
+    height: 7%;
+    background-color: black;
+   color: whitesmoke;
+}
+@media screen and (max-width: 656px) {
+    main{
+        flex-direction: column;
+        margin: 30px;
+    } 
+    img{
+        margin-right: 0;
+        width: 100%;
+    }
+    button{
+        width: 80%;
+        height: 50px;
+    }
+}
