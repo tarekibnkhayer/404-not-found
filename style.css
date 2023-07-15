@@ -28,5 +28,6 @@ button{
     button{
         width: 80%;
         height: 50px;
+        margin-bottom: 30px;
     }
 }
